@@ -9,7 +9,7 @@ body{
     background-color:rgb(241, 239, 239);   
 }
 
-
+/* header-**/
 header{
     display: flex;
     height: 40vh;
@@ -19,6 +19,7 @@ header{
     background-repeat: no-repeat;
    
 }
+
 .navbar{
     display: flex;
     width: 100%;
@@ -43,6 +44,7 @@ li a{
 li a:hover{
     color: white;
 }
+/*main*/
 
 
 main{
@@ -99,27 +101,10 @@ div{
    
   
 }
-button{
-    background-color:  hsl(176, 50%, 47%);
-    padding: 20px;
-    border-radius: 25px;
-}
 
-  .bookmark{
-    padding: 0px;
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    border-style: solid;
-   
-}
-.wrapper{
-    
-    padding: 10px;
-    align-items: center;
-    background-color: grey;
-    width: 40px;
-}
+
+  
+
 .left{
     color: black;
     font-weight: bold;
@@ -129,13 +114,26 @@ button{
 color: hsl(0, 0%, 48%);
 
 }
-
-
   
   
 a{
     color:  hsl(176, 50%, 47%);
     text-decoration: none;
+}
+}
+a:hover{
+    color: hsl(176, 72%, 28%);
+    cursor: pointer;
+}
+button{
+    background-color:  hsl(176, 50%, 47%);
+    padding: 20px;
+    border-radius: 20px;
+    border-style:none ;
+}
+button:hover{
+    background-color: hsl(176, 72%, 28%);
+    cursor: pointer;
 }
 .stats{
    display: flex;
@@ -145,17 +143,10 @@ a{
 }
 .stats div{
 
-    border-style: none;
+    border-style: none;}
     
-}
-a:hover{
-    color: hsl(176, 72%, 28%);
-    cursor: pointer;
-}
-button:hover{
-    background-color: hsl(176, 72%, 28%);
-    cursor: pointer;
-}
+
+
 
 
 @media(max-width:940px){
@@ -170,8 +161,6 @@ button:hover{
         body{
             background-color: black;
         }
-
-    
         main{
             background-color: rgb(241, 239, 239);
             border-style: solid;
